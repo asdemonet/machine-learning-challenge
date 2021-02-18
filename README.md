@@ -21,4 +21,4 @@ Finally, I ran a model that only used features with an importance score of > 0.0
 I then ran GridSearch to verify that the model was operating optimally and with the best parameters of {'max_features': 'auto', 'n_estimators': 700}, the score was only marginally improved at 0.8794145355115921.
 
 ## Conclusions
-The Random Forest Model had much greater success at accurately predicting the classification of exoplanet data, with 88.
+The Random Forest Model had much greater success at accurately predicting the classification of exoplanet data, with 87.6% accuracy. The most successful versions of this model included all data points or eliminated data points with an importance score of < 0.03.
